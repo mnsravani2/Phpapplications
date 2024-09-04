@@ -56,6 +56,10 @@ In settions ==>ok after that enter the password of the Ec2 instance
 
 You can find after restarting the RDP of that instance we can find the control panel automatically started
 
+=> Apache typically runs on port 80 by default. If another application is using this port, Apache won’t start.
+
+Change Apache Port: Open the XAMPP Control Panel, click on “Config” next to Apache, and then select “httpd.conf.” Look for the line 'Listen 80' and change it to another port like 'Listen 8080'. Save the file and restart Apache.
+
 =========================================================
 
 Commands if the Apache did not start and it is occupied by PID 4(This is only if the Apache did not start and showing error)
